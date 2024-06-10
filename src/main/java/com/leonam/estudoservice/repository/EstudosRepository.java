@@ -1,10 +1,9 @@
-package com.leonam.estudosrepository;
+package com.leonam.estudoservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-import com.leonam.estudosmodel.Estudo;
-@Repository
+import com.leonam.estudoservice.model.Estudo;
+
 public interface EstudosRepository extends JpaRepository<Estudo, Long>{
 
 }

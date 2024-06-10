@@ -1,4 +1,4 @@
-package com.leonam.estudosmodel;
+package com.leonam.estudoservice.model;
 
 import java.util.Objects;
 
